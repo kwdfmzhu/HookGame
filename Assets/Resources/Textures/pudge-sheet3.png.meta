@@ -1,16 +1,18 @@
 fileFormatVersion: 2
-guid: 53e1a48f10c0aa642b55d039bce8f569
-timeCreated: 1456669481
+guid: 7cb64191133f46f45b173cbea3a1ee40
+timeCreated: 1456669539
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: pudge-sheet2_0
-    21300002: pudge-sheet2_1
-    21300004: pudge-sheet2_2
-    21300006: pudge-sheet2_3
-    21300008: pudge-sheet2_4
-    21300010: pudge-sheet2_5
-    21300012: pudge-sheet2_6
+    21300000: pudge-sheet3_0
+    21300002: pudge-sheet3_1
+    21300004: pudge-sheet3_2
+    21300006: pudge-sheet3_3
+    21300008: pudge-sheet3_4
+    21300010: pudge-sheet3_5
+    21300012: pudge-sheet3_6
+    21300014: pudge-sheet3_7
+    21300016: pudge-sheet3_8
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -57,7 +59,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: pudge-sheet2_0
+    - name: pudge-sheet3_0
       rect:
         serializedVersion: 2
         x: 2
@@ -65,7 +67,7 @@ TextureImporter:
         width: 130
         height: 146
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -49, y: 73}
@@ -79,31 +81,30 @@ TextureImporter:
         - {x: -62, y: -69}
         - {x: -65, y: -68}
         - {x: -65, y: -73}
-    - name: pudge-sheet2_1
+    - name: pudge-sheet3_1
       rect:
         serializedVersion: 2
         x: 136
-        y: 364
+        y: 365
         width: 130
-        height: 146
+        height: 145
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 6, y: 73}
-        - {x: -37, y: 73}
-        - {x: -65, y: 26}
-        - {x: -65, y: -71}
-        - {x: -64, y: -73}
-        - {x: 63, y: -73}
-        - {x: 65, y: -60}
-        - {x: 65, y: 22}
-        - {x: 58, y: 35}
-      - - {x: -62, y: -72}
-        - {x: -62, y: -69}
-        - {x: -65, y: -68}
-        - {x: -65, y: -73}
-    - name: pudge-sheet2_2
+      - - {x: -62, y: -72.5}
+        - {x: -62, y: -69.5}
+        - {x: -65, y: -68.5}
+        - {x: -65, y: -72.5}
+      - - {x: -40, y: 72.5}
+        - {x: -65, y: -2.5}
+        - {x: -65, y: -58.5}
+        - {x: -63, y: -72.5}
+        - {x: 62, y: -72.5}
+        - {x: 65, y: -66.5}
+        - {x: 65, y: 18.5}
+        - {x: 42, y: 72.5}
+    - name: pudge-sheet3_2
       rect:
         serializedVersion: 2
         x: 270
@@ -111,26 +112,7 @@ TextureImporter:
         width: 130
         height: 146
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 3, y: 73}
-        - {x: -40, y: 73}
-        - {x: -65, y: 7}
-        - {x: -65, y: -73}
-        - {x: 63, y: -73}
-        - {x: 65, y: -55}
-        - {x: 65, y: 13}
-        - {x: 37, y: 64}
-    - name: pudge-sheet2_3
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 216
-        width: 130
-        height: 146
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -49, y: 73}
@@ -144,30 +126,52 @@ TextureImporter:
         - {x: -62, y: -69}
         - {x: -65, y: -68}
         - {x: -65, y: -73}
-    - name: pudge-sheet2_4
+    - name: pudge-sheet3_3
       rect:
         serializedVersion: 2
-        x: 136
+        x: 2
         y: 216
         width: 130
         height: 146
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -34, y: 73}
-        - {x: -65, y: 28}
-        - {x: -65, y: -71}
-        - {x: -64, y: -73}
-        - {x: 62, y: -73}
-        - {x: 65, y: -63}
-        - {x: 65, y: 32}
-        - {x: 31, y: 73}
+      - - {x: -49, y: 73}
+        - {x: -65, y: 5}
+        - {x: -65, y: -73}
+        - {x: 61, y: -73}
+        - {x: 65, y: -70}
+        - {x: 65, y: 35}
+        - {x: 37, y: 73}
       - - {x: -62, y: -72}
         - {x: -62, y: -69}
         - {x: -65, y: -68}
         - {x: -65, y: -73}
-    - name: pudge-sheet2_5
+    - name: pudge-sheet3_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 217
+        width: 130
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: -72.5}
+        - {x: -62, y: -69.5}
+        - {x: -65, y: -68.5}
+        - {x: -65, y: -72.5}
+      - - {x: -40, y: 72.5}
+        - {x: -65, y: -2.5}
+        - {x: -65, y: -58.5}
+        - {x: -63, y: -72.5}
+        - {x: 62, y: -72.5}
+        - {x: 65, y: -66.5}
+        - {x: 65, y: 18.5}
+        - {x: 42, y: 72.5}
+    - name: pudge-sheet3_5
       rect:
         serializedVersion: 2
         x: 270
@@ -175,20 +179,21 @@ TextureImporter:
         width: 130
         height: 146
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -34, y: 73}
-        - {x: -65, y: 33}
+      - - {x: -49, y: 73}
+        - {x: -65, y: 5}
         - {x: -65, y: -73}
-        - {x: 65, y: -73}
-        - {x: 65, y: 38}
-        - {x: 31, y: 73}
+        - {x: 61, y: -73}
+        - {x: 65, y: -70}
+        - {x: 65, y: 35}
+        - {x: 37, y: 73}
       - - {x: -62, y: -72}
         - {x: -62, y: -69}
         - {x: -65, y: -68}
         - {x: -65, y: -73}
-    - name: pudge-sheet2_6
+    - name: pudge-sheet3_6
       rect:
         serializedVersion: 2
         x: 2
@@ -196,17 +201,61 @@ TextureImporter:
         width: 130
         height: 146
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -34, y: 73}
-        - {x: -65, y: 28}
-        - {x: -65, y: -71}
-        - {x: -64, y: -73}
-        - {x: 62, y: -73}
-        - {x: 65, y: -63}
-        - {x: 65, y: 32}
-        - {x: 31, y: 73}
+      - - {x: -49, y: 73}
+        - {x: -65, y: 5}
+        - {x: -65, y: -73}
+        - {x: 61, y: -73}
+        - {x: 65, y: -70}
+        - {x: 65, y: 35}
+        - {x: 37, y: 73}
+      - - {x: -62, y: -72}
+        - {x: -62, y: -69}
+        - {x: -65, y: -68}
+        - {x: -65, y: -73}
+    - name: pudge-sheet3_7
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 69
+        width: 130
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: -72.5}
+        - {x: -62, y: -69.5}
+        - {x: -65, y: -68.5}
+        - {x: -65, y: -72.5}
+      - - {x: -40, y: 72.5}
+        - {x: -65, y: -2.5}
+        - {x: -65, y: -58.5}
+        - {x: -63, y: -72.5}
+        - {x: 62, y: -72.5}
+        - {x: 65, y: -66.5}
+        - {x: 65, y: 18.5}
+        - {x: 42, y: 72.5}
+    - name: pudge-sheet3_8
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 68
+        width: 130
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 73}
+        - {x: -65, y: 5}
+        - {x: -65, y: -73}
+        - {x: 61, y: -73}
+        - {x: 65, y: -70}
+        - {x: 65, y: 35}
+        - {x: 37, y: 73}
       - - {x: -62, y: -72}
         - {x: -62, y: -69}
         - {x: -65, y: -68}
